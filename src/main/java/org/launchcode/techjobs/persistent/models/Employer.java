@@ -33,4 +33,7 @@ public class Employer extends AbstractEntity {
 
     public Employer() {}
 
+    public List<Job> getJobs() {
+        return jobs;
+    }
 }
